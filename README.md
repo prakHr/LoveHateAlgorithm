@@ -1,6 +1,9 @@
 ## LoveHateAlgorithm
 Which person do you want to be around with right now?
 
+## How to install the package
+* pip install your-best-friend==0.1.0
+
 ## How to run the package
 * import pprint
 * import loveHateAlgorithm
