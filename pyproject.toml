@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "your-best-friend"
+version = "0.1.0"
+description = "A fun love-hate prediction algorithm"
+authors = [
+  { name="Prakhar Gandhi", email="gprakhar0@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "tensorflow==2.10.0",
+  "mpire",
+  "tqdm",
+  "deepface==0.0.99"
+]
