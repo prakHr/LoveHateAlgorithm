@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "your-best-friend"
-version = "0.1.0"
+version = "0.3.1"
 description = "A fun love-hate prediction algorithm"
 authors = [
   { name="Prakhar Gandhi", email="gprakhar0@gmail.com" }
@@ -15,5 +15,7 @@ dependencies = [
   "tensorflow==2.10.0",
   "mpire",
   "tqdm",
-  "deepface==0.0.99"
+  "deepface==0.0.99",
+  "dash-ag-grid",
+  "dash-bootstrap-components"
 ]
